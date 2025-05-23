@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-       
+        
       <button onClick={() => setEsAdmin(true)}>Soy admin</button>
       <h1>El cliente es: {esAdmin ? 'admin' : 'no admin'}</h1>
       <Routes>
